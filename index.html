@@ -5,29 +5,92 @@
     <title>Title</title>
     <script src="lib/d3.v7.js"></script>
     <script src="lib/d3-annotation.js"></script>
+    <script src="app/d3-lib.js"></script>
+    <script src="app/scene-control.js"></script>
     <script src="app/main.js"></script>
     <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
 <div id="container">
-    <div id="scene_1">
-        <h1 class="scene_title" id="scene_title_1">Is Now the Time to Buy Property in Hong Kong?</h1>
+    <div id="scene_1" class="scene">
+        <h1 class="scene_title" id="scene_title_1">Scene 1</h1>
         <div class="scene_text" id="scene_text_1">
-
+            <p>Here should be a text for scene 1</p>
         </div>
         <div class="scene_graph" id="scene_graph_1">
-            <svg id="scene_svg_1">
+            <svg id="scene_svg_1" class="scene_svg">
             </svg>
         </div>
         <div class="scene_footer">
-
+            <p>Scene 1 of 5</p>
         </div>
     </div>
+    
+    <div id="scene_2" class="scene" style="display: none;">
+        <h1 class="scene_title" id="scene_title_2">Scene 2</h1>
+        <div class="scene_text" id="scene_text_2">
+            <p>Here should be a text for scene 2</p>
+        </div>
+        <div class="scene_graph" id="scene_graph_2">
+            <svg id="scene_svg_2" class="scene_svg">
+            </svg>
+        </div>
+        <div class="scene_footer">
+            <p>Scene 2 of 5</p>
+        </div>
+    </div>
+    
+    <div id="scene_3" class="scene" style="display: none;">
+        <h1 class="scene_title" id="scene_title_3">Scene 3</h1>
+        <div class="scene_text" id="scene_text_3">
+            <p>Here should be a text for scene 3</p>
+        </div>
+        <div class="scene_graph" id="scene_graph_3">
+            <svg id="scene_svg_3" class="scene_svg">
+            </svg>
+        </div>
+        <div class="scene_footer">
+            <p>Scene 3 of 5</p>
+        </div>
+    </div>
+    
+    <div id="scene_4" class="scene" style="display: none;">
+        <h1 class="scene_title" id="scene_title_4">Scene 4</h1>
+        <div class="scene_text" id="scene_text_4">
+            <p>Here should be a text for scene 4</p>
+        </div>
+        <div class="scene_graph" id="scene_graph_4">
+            <svg id="scene_svg_4" class="scene_svg">
+            </svg>
+        </div>
+        <div class="scene_footer">
+            <p>Scene 4 of 5</p>
+        </div>
+    </div>
+
+    <div id="scene_5" class="scene" style="display: none;">
+        <h1 class="scene_title" id="scene_title_5">Scene 5</h1>
+        <div class="scene_text" id="scene_text_5">
+            <p>Here should be a text for scene 5</p>
+        </div>
+        <div class="scene_graph" id="scene_graph_5">
+            <svg id="scene_svg_5" class="scene_svg">
+            </svg>
+        </div>
+        <div class="scene_footer">
+            <p>Scene 5 of 5</p>
+        </div>
+    </div>
+
+</div>
+<div class="navigation-container">
+    <button id="prev" class="button">Back</button>
+    <button id="next" class="button">Next</button>
 </div>
 <footer>
     Data: https://data.gov.hk, Digital Policy Office Hong Kong, 2025.
     Visualization created by Egor Savkin for CS416 course at UIUC. All rights reserved.
-    Source code (GPLv3): <a href="https://github.com/thomasfire/uiuc-cs416-narrative"></a>.
+    Source code (GPLv3): <a href="https://github.com/thomasfire/uiuc-cs416-narrative">GitHub®</a>.
 </footer>
 </body>
 </html>

@@ -5,9 +5,14 @@ body {
 }
 
 #container {
-    display: flex;
-    width: 1200px;
-    margin: auto;
+    width: 75vw;
+    max-width: 95vw;
+    max-height: 90vh;
+    margin: 0 auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 80px; /* Space for buttons */
 }
 
 #visualization {
@@ -26,12 +31,70 @@ h1 {
 }
 
 .button {
-    padding: 10px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin: 10px;
     cursor: pointer;
+    background-color: #ADD8E6; /* Light blue color */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.button:hover {
+    background-color: #B0E0E6; /* Even lighter blue on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.button:disabled,
+.button.disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+    color: #888;
 }
 
 select {
     margin: 10px 0;
     width: 100%;
+}
+
+/* Fixed navigation buttons at the bottom */
+.navigation-container {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    z-index: 100;
+}
+
+footer {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 99;
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
 }
