@@ -109,3 +109,9 @@ const sceneControl = new SceneControl();
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = sceneControl;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (typeof sceneControl !== 'undefined') {
+        sceneControl.init();
+    }
+});
