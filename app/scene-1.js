@@ -1,5 +1,4 @@
 
-// Pre-calculated color palette for all class/territory combinations
 const LINE_COLORS = {
     "Class A Hong Kong": "#0088cc",
     "Class A Kowloon": "#cc8800",
@@ -17,6 +16,14 @@ const LINE_COLORS = {
     "Class E Kowloon": "#ffce66",
     "Class E New Territories": "#66ff66",
 };
+
+const EVENTS = {
+    "2003": "SARS Outbreak",
+    "2008": "Global Financial Crisis",
+    "2018": "Trade War",
+    "2020": "COVID-19 Lockdown",
+    "2022": "COVID-19 Restrictions Lifted",
+}
 
 
 class Scene1 {
@@ -92,15 +99,11 @@ class Scene1 {
     }
 
     addLineFilter(lineName) {
-        // "Class A Hong Kong"
-        // need to split by fixed number with substrings
         const [className, territoryName] = [lineName.substring(0, 7), lineName.substring(8)];
         this.addClassFilter(className);
         this.addTerritoryFilter(territoryName);
     }
     removeLineFilter(lineName) {
-        // "Class A Hong Kong"
-        // need to split by fixed number with substrings
         const [className, territoryName] = [lineName.substring(0, 7), lineName.substring(8)];
         this.removeClassFilter(className);
         this.removeTerritoryFilter(territoryName);
@@ -126,7 +129,6 @@ class Scene1 {
             .attr('height', this.height)
             .selectAll('*')
             .remove();
-        // TODO
         const filteredData = this.data.map(d => {
             return {
                 ...d,
@@ -134,7 +136,6 @@ class Scene1 {
                     .filter(([k, v]) => this.doesMatch(k)))
             };
         });
-        console.log('Filtered data:', filteredData);
 
         const allYears = Array.from(new Set(filteredData
             .map(row => row["Year"])))
@@ -169,11 +170,9 @@ class Scene1 {
 
         const svg = d3.select(`#${this.svgId}`);
 
-        // Create a group for the main chart area
         const chartGroup = svg.append('g')
             .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-        // Add X axis
         chartGroup.append('g')
             .attr('class', 'x-axis')
             .attr('transform', `translate(0, ${innerHeight})`)
@@ -182,19 +181,16 @@ class Scene1 {
             .attr('transform', 'rotate(-45)')
             .style('text-anchor', 'end');
 
-        // Add Y axis
         chartGroup.append('g')
             .attr('class', 'y-axis')
             .call(d3.axisLeft(yScale));
 
-        // Add X axis label
         svg.append('text')
             .attr('class', 'x-axis-label')
             .attr('transform', `translate(${this.width / 2}, ${this.height - 10})`)
             .style('text-anchor', 'middle')
             .text('Years');
 
-        // Add Y axis label
         svg.append('text')
             .attr('class', 'y-axis-label')
             .attr('transform', 'rotate(-90)')
@@ -204,7 +200,6 @@ class Scene1 {
             .style('text-anchor', 'middle')
             .text('Monthly Rent per Square Meter (HKD)');
 
-        // Keep track of active annotation
         let activeAnnotation = null;
 
         // Create data points for hover/click interactions
@@ -260,17 +255,14 @@ class Scene1 {
                     const makeAnnotations = d3.annotation()
                         .type(d3.annotationLabel)
                         .annotations(annotationData);
-                    
-                    // Remove existing annotations
+
                     chartGroup.selectAll('.annotation-group').remove();
-                    
-                    // Add new annotation
+
                     chartGroup.append("g")
                         .attr("class", "annotation-group")
                         .call(makeAnnotations);
                 })
                 .on('mouseout', (event, d) => {
-                    // Reset point size
                     d3.select(event.target)
                         .attr('r', 2);
 
@@ -284,8 +276,7 @@ class Scene1 {
                         className: className,
                         value: d.value
                     };
-                    
-                    // Highlight point
+
                     d3.select(event.target)
                         .attr('r', 4);
 
@@ -315,18 +306,53 @@ class Scene1 {
                 });
         });
 
+        const eventAnnotations = Object.entries(EVENTS).map(([year, eventName], index) => {
+
+            if (!xScale.domain().includes(year)) return null;
+            
+            return {
+                note: {
+                    label: eventName,
+                    bgPadding: 5,
+                    padding: 5
+                },
+                x: xScale(year) + xScale.bandwidth() / 2,
+                y: 50,
+                dy: -10 - (index * 5),
+                dx: index === 2 ? -40 : index === 4 ? 40 : -5,
+                year: year
+            };
+        }).filter(annotation => annotation !== null);
+
+        eventAnnotations.forEach(annotation => {
+            const year = annotation.year;
+
+            chartGroup.append('line')
+                .attr('x1', xScale(year) + xScale.bandwidth() / 2)
+                .attr('x2', xScale(year) + xScale.bandwidth() / 2)
+                .attr('y1', 0)
+                .attr('y2', innerHeight)
+                .attr('stroke', 'red')
+                .attr('stroke-width', 1);
+        });
+
+        const makeAnnotations = d3.annotation()
+            .type(d3.annotationLabel)
+            .annotations(eventAnnotations);
+
+        chartGroup.append("g")
+            .attr("class", "annotation-group-event")
+            .call(makeAnnotations);
+
 
         return this;
     }
 }
 
-// Create singleton instance
 const scene1 = new Scene1();
 
-// Load the renderer on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function () {
-    // Example initialization - this would be customized based on your needs
-    // d3Renderer.init(900, 800, 'scene_svg_1', 'path/to/data.csv');
+
     const sceneGraphElement = document.getElementById('scene_graph_1');
     if (sceneGraphElement) {
         const width = sceneGraphElement.offsetWidth * 0.95;
@@ -337,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Element with id "scene_graph" not found');
     }
 });
-// Handle window resize events
+
 window.addEventListener('resize', function () {
     const sceneGraphElement = document.getElementById('scene_graph_1');
     if (sceneGraphElement) {
