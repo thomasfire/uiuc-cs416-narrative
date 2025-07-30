@@ -1,11 +1,9 @@
 
 
-
-
-class Scene1 {
+class Scene2 {
     constructor() {
-        if (Scene1.instance) {
-            return Scene1.instance;
+        if (Scene2.instance) {
+            return Scene2.instance;
         }
 
         this.width = 0;
@@ -16,7 +14,7 @@ class Scene1 {
         this.filterClasses = [];
         this.filterTerritories = [];
 
-        Scene1.instance = this;
+        Scene2.instance = this;
         return this;
     }
 
@@ -129,8 +127,8 @@ class Scene1 {
             .sort();
         console.log('All values:', allValues);
 
-        const minValue = Math.min(...allValues) - 10;
-        const maxValue = Math.max(...allValues) + 10;
+        const minValue = Math.min(...allValues) - 10000;
+        const maxValue = Math.max(...allValues) + 10000;
 
         const margin = {top: 40, right: 40, bottom: 80, left: 80};
         const innerWidth = this.width - margin.left - margin.right;
@@ -161,7 +159,7 @@ class Scene1 {
 
         chartGroup.append('g')
             .attr('class', 'y-axis')
-            .call(d3.axisLeft(yScale));
+            .call(d3.axisLeft(yScale).tickFormat(d3.format('.3s')));
 
         svg.append('text')
             .attr('class', 'x-axis-label')
@@ -176,7 +174,7 @@ class Scene1 {
             .attr('x', 0 - (this.height / 2))
             .attr('dy', '1em')
             .style('text-anchor', 'middle')
-            .text('Monthly Rent per Square Meter (HKD)');
+            .text('Sale Price per Square Meter (HKD)');
 
         let activeAnnotation = null;
 
@@ -327,29 +325,29 @@ class Scene1 {
     }
 }
 
-const scene1 = new Scene1();
+const scene2 = new Scene2();
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    const sceneGraphElement = document.getElementById('scene_graph_1');
+    const sceneGraphElement = document.getElementById('scene_graph_2');
     if (sceneGraphElement) {
         const width = sceneGraphElement.offsetWidth * 0.95;
         const height = width * 3 / 4;
-        scene1.init(width, height, 'scene_svg_1', '/data/Monthly_rents_avg_annual.csv')
+        scene2.init(width, height, 'scene_svg_2', '/data/Prices_avg_annual.csv')
             .loadData();
     } else {
-        console.error('Element with id "scene_graph" not found');
+        console.error('Element with id "scene_graph_2" not found');
     }
 });
 
 window.addEventListener('resize', function () {
-    const sceneGraphElement = document.getElementById('scene_graph_1');
+    const sceneGraphElement = document.getElementById('scene_graph_2');
     if (sceneGraphElement) {
         const width = sceneGraphElement.offsetWidth * 0.95;
         const height = width * 3 / 4;
-        scene1.updateSize(width, height);
+        scene2.updateSize(width, height);
     } else {
-        console.error('Element with id "scene_graph_1" not found');
+        console.error('Element with id "scene_graph_2" not found');
     }
 });
 

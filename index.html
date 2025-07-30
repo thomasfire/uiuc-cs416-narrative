@@ -5,7 +5,9 @@
     <title>Title</title>
     <script src="lib/d3.v7.js"></script>
     <script src="lib/d3-annotation.js"></script>
+    <script src="app/shared.js"></script>
     <script src="app/scene-1.js"></script>
+    <script src="app/scene-2.js"></script>
     <script src="app/scene-control.js"></script>
     <script src="app/main.js"></script>
     <link rel="stylesheet" href="index.css"/>
@@ -15,7 +17,8 @@
     <div id="scene_1" class="scene">
         <h1 class="scene_title" id="scene_title_1">Tough to Rent?</h1>
         <div class="scene_text" id="scene_text_1">
-            <p>For many years, Hong Kong has been notorious for its ridiculously small and expensive housing.
+            <p>
+                For many years, Hong Kong has been notorious for its ridiculously small and expensive housing.
                 Yet more, the rental situation is barely improving despite all the global turmoil Hong Kong getting intertwined with.
             </p>
             <p>Hover over the points to know the typical monthly rent per square meter in each of the Class x Territory.</p>
@@ -31,21 +34,26 @@
         </div>
     </div>
     
-    <div id="scene_2" class="scene" style="display: none;">
-        <h1 class="scene_title" id="scene_title_2">Scene 2</h1>
+    <div id="scene_2" class="scene">
+        <h1 class="scene_title" id="scene_title_2">Maybe buy a flat instead?</h1>
         <div class="scene_text" id="scene_text_2">
-            <p>Here should be a text for scene 2</p>
+            <p>
+                However, the sale prices are on a downturn since COVID-19 hit Hong Kong.
+                Wouldn't that be a golden opportunity to buy a flat?
+            </p>
         </div>
         <div class="scene_graph" id="scene_graph_2">
             <svg id="scene_svg_2" class="scene_svg">
             </svg>
         </div>
         <div class="scene_footer">
+            <p>Colors notation: Hong Kong Island — blue; Kowloon — yellow to red; New Territories — green. The darker the color, the lower the class of the flat.</p>
+            <p>Classes: A — below 40 sq.m., B — 40-69.9 sq.m., C — 70-99.9 sq.m., D — 100-159.9 sq.m., E — more than 160 sq.m.</p>
             <p>Scene 2 of 5</p>
         </div>
     </div>
     
-    <div id="scene_3" class="scene" style="display: none;">
+    <div id="scene_3" class="scene">
         <h1 class="scene_title" id="scene_title_3">Scene 3</h1>
         <div class="scene_text" id="scene_text_3">
             <p>Here should be a text for scene 3</p>
@@ -59,7 +67,7 @@
         </div>
     </div>
     
-    <div id="scene_4" class="scene" style="display: none;">
+    <div id="scene_4" class="scene" >
         <h1 class="scene_title" id="scene_title_4">Scene 4</h1>
         <div class="scene_text" id="scene_text_4">
             <p>Here should be a text for scene 4</p>
@@ -73,7 +81,7 @@
         </div>
     </div>
 
-    <div id="scene_5" class="scene" style="display: none;">
+    <div id="scene_5" class="scene">
         <h1 class="scene_title" id="scene_title_5">Scene 5</h1>
         <div class="scene_text" id="scene_text_5">
             <p>Here should be a text for scene 5</p>
