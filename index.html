@@ -25,16 +25,16 @@
             <p>Hover over the points to know the typical monthly rent per square meter in each of the Class x Territory.</p>
             <div>
                 <div class="checkbox-group">
-                    <label><input type="checkbox" id="class-A" checked onchange="this.checked ? scene1.addClassFilter('Class A') : scene1.removeClassFilter('Class A')">Class A</label>
-                    <label><input type="checkbox" id="class-B" checked onchange="this.checked ? scene1.addClassFilter('Class B') : scene1.removeClassFilter('Class B')">Class B</label>
-                    <label><input type="checkbox" id="class-C" checked onchange="this.checked ? scene1.addClassFilter('Class C') : scene1.removeClassFilter('Class C')">Class C</label>
-                    <label><input type="checkbox" id="class-D" checked onchange="this.checked ? scene1.addClassFilter('Class D') : scene1.removeClassFilter('Class D')">Class D</label>
-                    <label><input type="checkbox" id="class-E" checked onchange="this.checked ? scene1.addClassFilter('Class E') : scene1.removeClassFilter('Class E')">Class E</label>
+                    <label><input type="checkbox" id="scene-1-class-A" checked onchange="this.checked ? scene1.addClassFilter('Class A') : scene1.removeClassFilter('Class A')">Class A</label>
+                    <label><input type="checkbox" id="scene-1-class-B" checked onchange="this.checked ? scene1.addClassFilter('Class B') : scene1.removeClassFilter('Class B')">Class B</label>
+                    <label><input type="checkbox" id="scene-1-class-C" checked onchange="this.checked ? scene1.addClassFilter('Class C') : scene1.removeClassFilter('Class C')">Class C</label>
+                    <label><input type="checkbox" id="scene-1-class-D" checked onchange="this.checked ? scene1.addClassFilter('Class D') : scene1.removeClassFilter('Class D')">Class D</label>
+                    <label><input type="checkbox" id="scene-1-class-E" checked onchange="this.checked ? scene1.addClassFilter('Class E') : scene1.removeClassFilter('Class E')">Class E</label>
                 </div>
                 <div class="checkbox-group">
-                    <label><input type="checkbox" id="territory-hki" checked onchange="this.checked ? scene1.addTerritoryFilter('Hong Kong') : scene1.removeTerritoryFilter('Hong Kong')">Hong Kong</label>
-                    <label><input type="checkbox" id="territory-kln" checked onchange="this.checked ? scene1.addTerritoryFilter('Kowloon') : scene1.removeTerritoryFilter('Kowloon')">Kowloon</label>
-                    <label><input type="checkbox" id="territory-nt" checked onchange="this.checked ? scene1.addTerritoryFilter('New Territories') : scene1.removeTerritoryFilter('New Territories')">New Territories</label>
+                    <label><input type="checkbox" id="scene-1-territory-hki" checked onchange="this.checked ? scene1.addTerritoryFilter('Hong Kong') : scene1.removeTerritoryFilter('Hong Kong')">Hong Kong</label>
+                    <label><input type="checkbox" id="scene-1-territory-kln" checked onchange="this.checked ? scene1.addTerritoryFilter('Kowloon') : scene1.removeTerritoryFilter('Kowloon')">Kowloon</label>
+                    <label><input type="checkbox" id="scene-1-territory-nt" checked onchange="this.checked ? scene1.addTerritoryFilter('New Territories') : scene1.removeTerritoryFilter('New Territories')">New Territories</label>
                 </div>
             </div>
         </div>
@@ -57,6 +57,20 @@
                 Wouldn't that be a golden opportunity to buy a flat?
             </p>
             <p>Hover over the points to know the typical monthly rent per square meter in each of the Class x Territory.</p>
+            <div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="scene-2-class-A" checked onchange="this.checked ? scene2.addClassFilter('Class A') : scene2.removeClassFilter('Class A')">Class A</label>
+                    <label><input type="checkbox" id="scene-2-class-B" checked onchange="this.checked ? scene2.addClassFilter('Class B') : scene2.removeClassFilter('Class B')">Class B</label>
+                    <label><input type="checkbox" id="scene-2-class-C" checked onchange="this.checked ? scene2.addClassFilter('Class C') : scene2.removeClassFilter('Class C')">Class C</label>
+                    <label><input type="checkbox" id="scene-2-class-D" checked onchange="this.checked ? scene2.addClassFilter('Class D') : scene2.removeClassFilter('Class D')">Class D</label>
+                    <label><input type="checkbox" id="scene-2-class-E" checked onchange="this.checked ? scene2.addClassFilter('Class E') : scene2.removeClassFilter('Class E')">Class E</label>
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="scene-2-territory-hki" checked onchange="this.checked ? scene2.addTerritoryFilter('Hong Kong') : scene2.removeTerritoryFilter('Hong Kong')">Hong Kong</label>
+                    <label><input type="checkbox" id="scene-2-territory-kln" checked onchange="this.checked ? scene2.addTerritoryFilter('Kowloon') : scene2.removeTerritoryFilter('Kowloon')">Kowloon</label>
+                    <label><input type="checkbox" id="scene-2-territory-nt" checked onchange="this.checked ? scene2.addTerritoryFilter('New Territories') : scene2.removeTerritoryFilter('New Territories')">New Territories</label>
+                </div>
+            </div>
         </div>
         <div class="scene_graph" id="scene_graph_2">
             <svg id="scene_svg_2" class="scene_svg">

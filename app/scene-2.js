@@ -11,8 +11,8 @@ class Scene2 {
         this.svgId = '';
         this.dataUrl = '';
         this.data = [];
-        this.filterClasses = [];
-        this.filterTerritories = [];
+        this.filterClasses = ['Class A', 'Class B', 'Class C', 'Class D', 'Class E'];
+        this.filterTerritories = ['Hong Kong', 'Kowloon', 'New Territories'];
 
         Scene2.instance = this;
         return this;
@@ -86,6 +86,9 @@ class Scene2 {
     }
 
     doesMatch(columnName) {
+        if (columnName === 'Year') {
+            return true;
+        }
         const hasClass = this.filterClasses.filter(c => columnName.includes(c)).length > 0;
         const hasTerritory = this.filterTerritories.filter(c => columnName.includes(c)).length > 0;
         return (this.filterClasses.length === 0 || hasClass) &&
@@ -107,7 +110,6 @@ class Scene2 {
             .remove();
         const filteredData = this.data.map(d => {
             return {
-                ...d,
                 ...Object.fromEntries(Object.entries(d)
                     .filter(([k, v]) => this.doesMatch(k)))
             };
