@@ -13,8 +13,8 @@ class Scene1 {
         this.svgId = '';
         this.dataUrl = '';
         this.data = [];
-        this.filterClasses = [];
-        this.filterTerritories = [];
+        this.filterClasses = ['Class A', 'Class B', 'Class C', 'Class D', 'Class E'];
+        this.filterTerritories = ['Hong Kong', 'Kowloon', 'New Territories'];
 
         Scene1.instance = this;
         return this;
@@ -88,8 +88,13 @@ class Scene1 {
     }
 
     doesMatch(columnName) {
+       // console.log('Does', columnName, 'match?');
+        if (columnName === 'Year') {
+            return true;
+        }
         const hasClass = this.filterClasses.filter(c => columnName.includes(c)).length > 0;
         const hasTerritory = this.filterTerritories.filter(c => columnName.includes(c)).length > 0;
+        //console.log('Does', columnName, 'match?', hasClass, hasTerritory, (this.filterClasses.length === 0 || hasClass) && (this.filterTerritories.length === 0 || hasTerritory));
         return (this.filterClasses.length === 0 || hasClass) &&
             (this.filterTerritories.length === 0 || hasTerritory);
     }
@@ -109,7 +114,6 @@ class Scene1 {
             .remove();
         const filteredData = this.data.map(d => {
             return {
-                ...d,
                 ...Object.fromEntries(Object.entries(d)
                     .filter(([k, v]) => this.doesMatch(k)))
             };
@@ -127,7 +131,6 @@ class Scene1 {
             .flatMap(d => Object.keys(d)
                 .filter(k => k !== 'Year'))))
             .sort();
-        console.log('All values:', allValues);
 
         const minValue = Math.min(...allValues) - 10;
         const maxValue = Math.max(...allValues) + 10;
