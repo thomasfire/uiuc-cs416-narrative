@@ -25,7 +25,7 @@ They show recent drop  in prices.
 In popover can show price to rent ratio in year.
 Highlight major events - covid, protests, other crysises.
 
-## Scene 3 - More home - interest rates
+## Scene 3 - More hope - interest rates
 
 Show a linechart of best lending rate for each year - and 
 denote that it is not actual mortgage rate.
