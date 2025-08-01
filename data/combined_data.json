@@ -1,0 +1,2420 @@
+[
+  {
+    "year": "1999",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 3.528495198683,
+      "downpayment": 12558.3,
+      "mortgage_payment": 196.53,
+      "price_to_rent": 18.0746977547496
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -6.471196264005,
+      "downpayment": 10641.3,
+      "mortgage_payment": 166.53,
+      "price_to_rent": 17.0862235067437
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 34.768227608632,
+      "downpayment": 10720.5,
+      "mortgage_payment": 167.77,
+      "price_to_rent": 22.390350877193
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 34.391986403992,
+      "downpayment": 14786.1,
+      "mortgage_payment": 231.39,
+      "price_to_rent": 20.8489847715736
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 17.15313846767,
+      "downpayment": 11128.5,
+      "mortgage_payment": 174.15,
+      "price_to_rent": 19.6894904458599
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 48.51473994296,
+      "downpayment": 10512.6,
+      "mortgage_payment": 164.51,
+      "price_to_rent": 25.1738505747126
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 37.213029115769,
+      "downpayment": 18225.3,
+      "mortgage_payment": 285.21,
+      "price_to_rent": 20.4136424731183
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 23.345295644455,
+      "downpayment": 13185.6,
+      "mortgage_payment": 206.35,
+      "price_to_rent": 20.0145719489982
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 53.387682430524,
+      "downpayment": 12357.6,
+      "mortgage_payment": 193.39,
+      "price_to_rent": 24.5190476190476
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 34.255045657063,
+      "downpayment": 19697.7,
+      "mortgage_payment": 308.26,
+      "price_to_rent": 19.9692822384428
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 49.265175721405,
+      "downpayment": 15097.5,
+      "mortgage_payment": 236.27,
+      "price_to_rent": 22.4264705882353
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 45.312267579447,
+      "downpayment": 14205.9,
+      "mortgage_payment": 222.31,
+      "price_to_rent": 22.2942561205273
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 57.01973035093,
+      "downpayment": 23261.1,
+      "mortgage_payment": 364.02,
+      "price_to_rent": 21.0469598262758
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 148.390927092554,
+      "downpayment": 21367.8,
+      "mortgage_payment": 334.39,
+      "price_to_rent": 31.9112903225806
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 48.06812835026,
+      "downpayment": 14254.2,
+      "mortgage_payment": 223.07,
+      "price_to_rent": 22.6257142857143
+    }
+  },
+  {
+    "year": "2000",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -28.666784331709,
+      "downpayment": 10792.5,
+      "mortgage_payment": 163.33,
+      "price_to_rent": 15.6141493055556
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -25.299614911457,
+      "downpayment": 9297,
+      "mortgage_payment": 140.7,
+      "price_to_rent": 15.5572289156627
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 12.761629839437,
+      "downpayment": 9433.2,
+      "mortgage_payment": 142.76,
+      "price_to_rent": 20.1564102564103
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 0.206389526474,
+      "downpayment": 13096.8,
+      "mortgage_payment": 198.21,
+      "price_to_rent": 18.3737373737374
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -5.026140318077,
+      "downpayment": 9513.3,
+      "mortgage_payment": 143.97,
+      "price_to_rent": 17.7354586129754
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 25.371173785303,
+      "downpayment": 9407.4,
+      "mortgage_payment": 142.37,
+      "price_to_rent": 22.3347578347578
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": -2.484960848304,
+      "downpayment": 16487.1,
+      "mortgage_payment": 249.52,
+      "price_to_rent": 18.1736111111111
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 2.865289825274,
+      "downpayment": 11554.5,
+      "mortgage_payment": 174.87,
+      "price_to_rent": 18.6603682170543
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 25.457927494185,
+      "downpayment": 11197.2,
+      "mortgage_payment": 169.46,
+      "price_to_rent": 21.599537037037
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 10.912556801723,
+      "downpayment": 18958.2,
+      "mortgage_payment": 286.91,
+      "price_to_rent": 19.0803140096618
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 16.749766380915,
+      "downpayment": 13991.7,
+      "mortgage_payment": 211.75,
+      "price_to_rent": 19.9311965811966
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 3.913786332033,
+      "downpayment": 12416.7,
+      "mortgage_payment": 187.91,
+      "price_to_rent": 18.745018115942
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 48.222855520268,
+      "downpayment": 24066.6,
+      "mortgage_payment": 364.22,
+      "price_to_rent": 21.1555907172996
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 125.316932500995,
+      "downpayment": 21297.6,
+      "mortgage_payment": 322.32,
+      "price_to_rent": 30.0304568527919
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 28.442383695161,
+      "downpayment": 13376.7,
+      "mortgage_payment": 202.44,
+      "price_to_rent": 21.3548850574713
+    }
+  },
+  {
+    "year": "2001",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -32.894248756796,
+      "downpayment": 9576.6,
+      "mortgage_payment": 154.11,
+      "price_to_rent": 14.2254901960784
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -24.779689461202,
+      "downpayment": 7968,
+      "mortgage_payment": 128.22,
+      "price_to_rent": 14.4662309368192
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 14.607188206073,
+      "downpayment": 8364.9,
+      "mortgage_payment": 134.61,
+      "price_to_rent": 19.3631944444444
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -3.772277724917,
+      "downpayment": 11634.9,
+      "mortgage_payment": 187.23,
+      "price_to_rent": 16.9210296684119
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -9.297645575033,
+      "downpayment": 8495.1,
+      "mortgage_payment": 136.7,
+      "price_to_rent": 16.1626712328767
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 22.40443018489,
+      "downpayment": 8352.3,
+      "mortgage_payment": 134.4,
+      "price_to_rent": 20.7150297619048
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": -15.720704534112,
+      "downpayment": 14807.4,
+      "mortgage_payment": 238.28,
+      "price_to_rent": 16.1935695538058
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": -20.866689242204,
+      "downpayment": 10137.6,
+      "mortgage_payment": 163.13,
+      "price_to_rent": 15.304347826087
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 16.789188628035,
+      "downpayment": 9805.5,
+      "mortgage_payment": 157.79,
+      "price_to_rent": 19.3173758865248
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": -7.291846728172,
+      "downpayment": 17071.2,
+      "mortgage_payment": 274.71,
+      "price_to_rent": 16.8156028368794
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": -35.224033051451,
+      "downpayment": 12290.4,
+      "mortgage_payment": 197.78,
+      "price_to_rent": 14.6523605150215
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -8.942565870609,
+      "downpayment": 10443.6,
+      "mortgage_payment": 168.06,
+      "price_to_rent": 16.3898305084746
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 11.436237748643,
+      "downpayment": 21093.6,
+      "mortgage_payment": 339.44,
+      "price_to_rent": 17.8638211382114
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 76.310886456321,
+      "downpayment": 17605.8,
+      "mortgage_payment": 283.31,
+      "price_to_rent": 23.6256038647343
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -13.771543720552,
+      "downpayment": 10702.8,
+      "mortgage_payment": 172.23,
+      "price_to_rent": 15.9838709677419
+    }
+  },
+  {
+    "year": "2002",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -75.1611160901891,
+      "downpayment": 8703.6,
+      "mortgage_payment": 89.84,
+      "price_to_rent": 14.6525252525253
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -61.7746405517569,
+      "downpayment": 6997.2,
+      "mortgage_payment": 72.23,
+      "price_to_rent": 14.5049751243781
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -29.2723732933123,
+      "downpayment": 7336.5,
+      "mortgage_payment": 75.73,
+      "price_to_rent": 19.4087301587302
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -62.167119282173,
+      "downpayment": 10253.1,
+      "mortgage_payment": 105.83,
+      "price_to_rent": 16.952876984127
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -55.4455781049792,
+      "downpayment": 7416.6,
+      "mortgage_payment": 76.55,
+      "price_to_rent": 15.6073232323232
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": -24.6809205555908,
+      "downpayment": 7393.8,
+      "mortgage_payment": 76.32,
+      "price_to_rent": 20.3349834983498
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": -94.58312302683,
+      "downpayment": 12634.8,
+      "mortgage_payment": 130.42,
+      "price_to_rent": 15.5985185185185
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": -69.0764805125003,
+      "downpayment": 9196.2,
+      "mortgage_payment": 94.92,
+      "price_to_rent": 15.5762195121951
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": -30.5818443821372,
+      "downpayment": 8856.6,
+      "mortgage_payment": 91.42,
+      "price_to_rent": 20.1653005464481
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": -86.592443629804,
+      "downpayment": 15540.3,
+      "mortgage_payment": 160.41,
+      "price_to_rent": 17.4767206477733
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": -79.623158172532,
+      "downpayment": 11274.6,
+      "mortgage_payment": 116.38,
+      "price_to_rent": 15.9787414965986
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -57.0539825737561,
+      "downpayment": 9585.9,
+      "mortgage_payment": 98.95,
+      "price_to_rent": 17.0689102564103
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": -101.475229388794,
+      "downpayment": 19717.5,
+      "mortgage_payment": 203.52,
+      "price_to_rent": 17.957650273224
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": -35.664898177824,
+      "downpayment": 14952,
+      "mortgage_payment": 154.34,
+      "price_to_rent": 21.859649122807
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -59.609113022267,
+      "downpayment": 10597.8,
+      "mortgage_payment": 109.39,
+      "price_to_rent": 17.4191321499014
+    }
+  },
+  {
+    "year": "2003",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -73.5662467641371,
+      "downpayment": 7723.8,
+      "mortgage_payment": 78.43,
+      "price_to_rent": 14.1151315789474
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -58.4298481794162,
+      "downpayment": 6260.1,
+      "mortgage_payment": 63.57,
+      "price_to_rent": 14.2534153005464
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -29.5029628410203,
+      "downpayment": 6252.9,
+      "mortgage_payment": 63.5,
+      "price_to_rent": 18.676523297491
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -54.0925902107468,
+      "downpayment": 9149.1,
+      "mortgage_payment": 92.91,
+      "price_to_rent": 17.2885487528345
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -52.917297978183,
+      "downpayment": 6606,
+      "mortgage_payment": 67.08,
+      "price_to_rent": 15.2916666666667
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": -23.0589482743381,
+      "downpayment": 6395.1,
+      "mortgage_payment": 64.94,
+      "price_to_rent": 20.186553030303
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": -67.999814072168,
+      "downpayment": 12112.5,
+      "mortgage_payment": 123,
+      "price_to_rent": 17.6156195462478
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": -71.2639199364216,
+      "downpayment": 8442.9,
+      "mortgage_payment": 85.74,
+      "price_to_rent": 14.937898089172
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": -21.5289418633309,
+      "downpayment": 8022.9,
+      "mortgage_payment": 81.47,
+      "price_to_rent": 21.6367313915858
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": -68.698328421485,
+      "downpayment": 14505.6,
+      "mortgage_payment": 147.3,
+      "price_to_rent": 18.6543209876543
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": -67.799421437138,
+      "downpayment": 10261.2,
+      "mortgage_payment": 104.2,
+      "price_to_rent": 16.5717054263566
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -40.0834508780463,
+      "downpayment": 9150,
+      "mortgage_payment": 92.92,
+      "price_to_rent": 19.1102756892231
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": -59.078629758944,
+      "downpayment": 19884.3,
+      "mortgage_payment": 201.92,
+      "price_to_rent": 21.1625159642401
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": -13.22698946373,
+      "downpayment": 16620,
+      "mortgage_payment": 168.77,
+      "price_to_rent": 25.3663003663004
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -41.016485269126,
+      "downpayment": 10338.3,
+      "mortgage_payment": 104.98,
+      "price_to_rent": 19.6695205479452
+    }
+  },
+  {
+    "year": "2004",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -67.8839368628602,
+      "downpayment": 9760.5,
+      "mortgage_payment": 99.12,
+      "price_to_rent": 16.2350299401198
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -48.129072655926,
+      "downpayment": 7569.9,
+      "mortgage_payment": 76.87,
+      "price_to_rent": 16.822
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -17.9310725021538,
+      "downpayment": 7983.3,
+      "mortgage_payment": 81.07,
+      "price_to_rent": 22.3998316498316
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -40.914532355035,
+      "downpayment": 12514.8,
+      "mortgage_payment": 127.09,
+      "price_to_rent": 20.6924603174603
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -33.290646528736,
+      "downpayment": 9917.4,
+      "mortgage_payment": 100.71,
+      "price_to_rent": 20.5584577114428
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": -9.6294932444424,
+      "downpayment": 8406.9,
+      "mortgage_payment": 85.37,
+      "price_to_rent": 24.5815789473684
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": -39.937595982953,
+      "downpayment": 17042.4,
+      "mortgage_payment": 173.06,
+      "price_to_rent": 22.2253521126761
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": -28.313691435248,
+      "downpayment": 14051.1,
+      "mortgage_payment": 142.69,
+      "price_to_rent": 22.8250487329435
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": -5.248033752279,
+      "downpayment": 10709.4,
+      "mortgage_payment": 108.75,
+      "price_to_rent": 26.0950292397661
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": -32.048165316609,
+      "downpayment": 19887.3,
+      "mortgage_payment": 201.95,
+      "price_to_rent": 23.607905982906
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 1.09279357376,
+      "downpayment": 18621,
+      "mortgage_payment": 189.09,
+      "price_to_rent": 27.5132978723404
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -23.317429285268,
+      "downpayment": 12573.6,
+      "mortgage_payment": 127.68,
+      "price_to_rent": 23.1302428256071
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 12.821958293244,
+      "downpayment": 28343.4,
+      "mortgage_payment": 287.82,
+      "price_to_rent": 28.629696969697
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 70.214464129042,
+      "downpayment": 22572,
+      "mortgage_payment": 229.21,
+      "price_to_rent": 39.4339622641509
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -29.485021160922,
+      "downpayment": 13344.9,
+      "mortgage_payment": 135.51,
+      "price_to_rent": 22.4661616161616
+    }
+  },
+  {
+    "year": "2005",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -68.707336704346,
+      "downpayment": 11747.4,
+      "mortgage_payment": 119.29,
+      "price_to_rent": 17.3572695035461
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -48.9235031950844,
+      "downpayment": 8968.8,
+      "mortgage_payment": 91.08,
+      "price_to_rent": 17.7952380952381
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -12.9951039952746,
+      "downpayment": 9158.7,
+      "mortgage_payment": 93,
+      "price_to_rent": 24.000786163522
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -33.91387839206,
+      "downpayment": 14779.8,
+      "mortgage_payment": 150.09,
+      "price_to_rent": 22.3125
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -26.590805532062,
+      "downpayment": 11660.4,
+      "mortgage_payment": 118.41,
+      "price_to_rent": 22.3379310344828
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": -1.4300166720677,
+      "downpayment": 9805.2,
+      "mortgage_payment": 99.57,
+      "price_to_rent": 26.96699669967
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": -40.003234944516,
+      "downpayment": 19990.2,
+      "mortgage_payment": 203,
+      "price_to_rent": 22.8511659807956
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": -20.827157699137,
+      "downpayment": 16954.8,
+      "mortgage_payment": 172.17,
+      "price_to_rent": 24.4024179620035
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 4.683337006142,
+      "downpayment": 12475.2,
+      "mortgage_payment": 126.68,
+      "price_to_rent": 28.4043715846995
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": -11.723186731902,
+      "downpayment": 24744.6,
+      "mortgage_payment": 251.28,
+      "price_to_rent": 26.1349809885932
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 17.530565480729,
+      "downpayment": 21913.8,
+      "mortgage_payment": 222.53,
+      "price_to_rent": 29.6934959349593
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -8.717392099702,
+      "downpayment": 14996.1,
+      "mortgage_payment": 152.28,
+      "price_to_rent": 25.8731884057971
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 33.431713888863,
+      "downpayment": 34607.4,
+      "mortgage_payment": 351.43,
+      "price_to_rent": 30.2300838574423
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 93.411417170319,
+      "downpayment": 28992.3,
+      "mortgage_payment": 294.41,
+      "price_to_rent": 40.0667495854063
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -1.89266561086,
+      "downpayment": 17145.3,
+      "mortgage_payment": 174.11,
+      "price_to_rent": 27.0601325757576
+    }
+  },
+  {
+    "year": "2006",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -36.169016834107,
+      "downpayment": 12854.7,
+      "mortgage_payment": 179.83,
+      "price_to_rent": 16.53125
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -27.809003667948,
+      "downpayment": 9020.4,
+      "mortgage_payment": 126.19,
+      "price_to_rent": 16.2705627705628
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 8.410779995009,
+      "downpayment": 8678.7,
+      "mortgage_payment": 121.41,
+      "price_to_rent": 21.3340707964602
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 12.130320988606,
+      "downpayment": 15663.9,
+      "mortgage_payment": 219.13,
+      "price_to_rent": 21.0197262479871
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 4.85815652148,
+      "downpayment": 11427,
+      "mortgage_payment": 159.86,
+      "price_to_rent": 20.4784946236559
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 23.878881888221,
+      "downpayment": 9355.5,
+      "mortgage_payment": 130.88,
+      "price_to_rent": 24.2873831775701
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 32.976259069237,
+      "downpayment": 20799.6,
+      "mortgage_payment": 290.98,
+      "price_to_rent": 22.3940568475452
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 41.657132318261,
+      "downpayment": 17131.2,
+      "mortgage_payment": 239.66,
+      "price_to_rent": 24.03367003367
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 50.375073387003,
+      "downpayment": 12464.7,
+      "mortgage_payment": 174.38,
+      "price_to_rent": 27.9227150537634
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 62.010305186901,
+      "downpayment": 25734.3,
+      "mortgage_payment": 360.01,
+      "price_to_rent": 23.9879753914989
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 96.52250739547,
+      "downpayment": 22625.7,
+      "mortgage_payment": 316.52,
+      "price_to_rent": 28.567803030303
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 32.925120120207,
+      "downpayment": 14577,
+      "mortgage_payment": 203.93,
+      "price_to_rent": 23.6793372319688
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 149.915072060545,
+      "downpayment": 36092.4,
+      "mortgage_payment": 504.92,
+      "price_to_rent": 28.2413145539906
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 219.672026667512,
+      "downpayment": 29784.6,
+      "mortgage_payment": 416.67,
+      "price_to_rent": 41.997461928934
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 46.435097520136,
+      "downpayment": 16829.4,
+      "mortgage_payment": 235.44,
+      "price_to_rent": 24.7345679012346
+    }
+  },
+  {
+    "year": "2007",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -26.538127570984,
+      "downpayment": 15687.6,
+      "mortgage_payment": 219.46,
+      "price_to_rent": 17.7140921409214
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -15.530603598593,
+      "downpayment": 11041.8,
+      "mortgage_payment": 154.47,
+      "price_to_rent": 18.0421568627451
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 9.456500423717,
+      "downpayment": 9754.2,
+      "mortgage_payment": 136.46,
+      "price_to_rent": 21.3346456692913
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 21.307950054713,
+      "downpayment": 18464.4,
+      "mortgage_payment": 258.31,
+      "price_to_rent": 21.6413502109705
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 30.571834033028,
+      "downpayment": 14337.3,
+      "mortgage_payment": 200.57,
+      "price_to_rent": 23.4269607843137
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 25.616332795091,
+      "downpayment": 10266,
+      "mortgage_payment": 143.62,
+      "price_to_rent": 24.1666666666667
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 60.341903142332,
+      "downpayment": 24971.7,
+      "mortgage_payment": 349.34,
+      "price_to_rent": 24.0020184544406
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 100.849463535498,
+      "downpayment": 22935,
+      "mortgage_payment": 320.85,
+      "price_to_rent": 28.9583333333333
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 43.687493247495,
+      "downpayment": 13416.3,
+      "mortgage_payment": 187.69,
+      "price_to_rent": 25.8802083333333
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 108.07862999734,
+      "downpayment": 31672.2,
+      "mortgage_payment": 443.08,
+      "price_to_rent": 26.2621890547264
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 161.462628945437,
+      "downpayment": 28697.4,
+      "mortgage_payment": 401.46,
+      "price_to_rent": 33.2145833333333
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 44.82920331898,
+      "downpayment": 17143.5,
+      "mortgage_payment": 239.83,
+      "price_to_rent": 24.4209401709402
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 236.541392349813,
+      "downpayment": 45215.4,
+      "mortgage_payment": 632.54,
+      "price_to_rent": 31.7167508417508
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 315.815708784032,
+      "downpayment": 38873.1,
+      "mortgage_payment": 543.82,
+      "price_to_rent": 47.360014619883
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 69.682080865206,
+      "downpayment": 21064.5,
+      "mortgage_payment": 294.68,
+      "price_to_rent": 26.0055555555556
+    }
+  },
+  {
+    "year": "2008",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -42.690082455653,
+      "downpayment": 19199.1,
+      "mortgage_payment": 235.31,
+      "price_to_rent": 19.1837529976019
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -40.070228630017,
+      "downpayment": 12885.6,
+      "mortgage_payment": 157.93,
+      "price_to_rent": 18.0774410774411
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -7.362869493732,
+      "downpayment": 11311.5,
+      "mortgage_payment": 138.64,
+      "price_to_rent": 21.5211187214612
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -4.193844293163,
+      "downpayment": 21768.9,
+      "mortgage_payment": 266.81,
+      "price_to_rent": 22.3133456334563
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -5.12828859045,
+      "downpayment": 16062.9,
+      "mortgage_payment": 196.87,
+      "price_to_rent": 22.088696369637
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 1.65941990498,
+      "downpayment": 11476.5,
+      "mortgage_payment": 140.66,
+      "price_to_rent": 22.9346522781775
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 18.955912151798,
+      "downpayment": 28961.1,
+      "mortgage_payment": 354.96,
+      "price_to_rent": 23.9427083333333
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 42.351105676202,
+      "downpayment": 24995.4,
+      "mortgage_payment": 306.35,
+      "price_to_rent": 26.2998737373737
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 9.163810056462,
+      "downpayment": 14618.1,
+      "mortgage_payment": 179.16,
+      "price_to_rent": 23.8857843137255
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 56.489205436693,
+      "downpayment": 37000.5,
+      "mortgage_payment": 453.49,
+      "price_to_rent": 25.8889588581024
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 86.46950849419,
+      "downpayment": 30798,
+      "mortgage_payment": 377.47,
+      "price_to_rent": 29.3986254295533
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -21.523112092388,
+      "downpayment": 17662.5,
+      "mortgage_payment": 216.48,
+      "price_to_rent": 20.6144957983193
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 160.035412034002,
+      "downpayment": 51649.8,
+      "mortgage_payment": 633.04,
+      "price_to_rent": 30.3322762508809
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 231.818587265827,
+      "downpayment": 41188.5,
+      "mortgage_payment": 504.82,
+      "price_to_rent": 41.9093406593407
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 11.50533492139,
+      "downpayment": 22233.9,
+      "mortgage_payment": 272.51,
+      "price_to_rent": 23.6631545338442
+    }
+  },
+  {
+    "year": "2009",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -47.632260153815,
+      "downpayment": 18549.6,
+      "mortgage_payment": 188.37,
+      "price_to_rent": 21.8333333333333
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -46.37762932134,
+      "downpayment": 13257,
+      "mortgage_payment": 134.62,
+      "price_to_rent": 20.3453038674033
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -17.533689383036,
+      "downpayment": 11764.5,
+      "mortgage_payment": 119.47,
+      "price_to_rent": 23.8534063260341
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -8.304141517846,
+      "downpayment": 21437.7,
+      "mortgage_payment": 217.7,
+      "price_to_rent": 26.3491887905605
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -5.415869006207,
+      "downpayment": 16601.4,
+      "mortgage_payment": 168.58,
+      "price_to_rent": 26.5028735632184
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": -5.762938991958,
+      "downpayment": 11840.4,
+      "mortgage_payment": 120.24,
+      "price_to_rent": 26.1031746031746
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 18.289578122384,
+      "downpayment": 28586.4,
+      "mortgage_payment": 290.29,
+      "price_to_rent": 29.1936274509804
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 30.815230163207,
+      "downpayment": 25683.9,
+      "mortgage_payment": 260.82,
+      "price_to_rent": 31.0192028985507
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 7.85154540196,
+      "downpayment": 14756.7,
+      "mortgage_payment": 149.85,
+      "price_to_rent": 28.8667840375587
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 63.452964112875,
+      "downpayment": 36185.1,
+      "mortgage_payment": 367.45,
+      "price_to_rent": 33.0638706140351
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 72.775401731303,
+      "downpayment": 30406.8,
+      "mortgage_payment": 308.78,
+      "price_to_rent": 35.7895480225989
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -6.664948584757,
+      "downpayment": 17266.2,
+      "mortgage_payment": 175.34,
+      "price_to_rent": 26.3525641025641
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 138.131703370558,
+      "downpayment": 49250.7,
+      "mortgage_payment": 500.13,
+      "price_to_rent": 37.7921270718232
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 198.151776718459,
+      "downpayment": 43541.1,
+      "mortgage_payment": 442.15,
+      "price_to_rent": 49.5686475409836
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 1.8901020645,
+      "downpayment": 20767.5,
+      "mortgage_payment": 210.89,
+      "price_to_rent": 27.6016746411483
+    }
+  },
+  {
+    "year": "2010",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -53.799254230711,
+      "downpayment": 22767.6,
+      "mortgage_payment": 231.2,
+      "price_to_rent": 22.1906432748538
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -34.431867518785,
+      "downpayment": 16698.3,
+      "mortgage_payment": 169.57,
+      "price_to_rent": 22.7373366013072
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -19.143109279577,
+      "downpayment": 14461.8,
+      "mortgage_payment": 146.86,
+      "price_to_rent": 24.1997991967871
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -11.321112257297,
+      "downpayment": 25965.9,
+      "mortgage_payment": 263.68,
+      "price_to_rent": 26.2281818181818
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": -4.577536486046,
+      "downpayment": 20918.4,
+      "mortgage_payment": 212.42,
+      "price_to_rent": 26.7772657450077
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": -8.430222607531,
+      "downpayment": 14138.1,
+      "mortgage_payment": 143.57,
+      "price_to_rent": 25.8371710526316
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 17.470588815301,
+      "downpayment": 33921.9,
+      "mortgage_payment": 344.47,
+      "price_to_rent": 28.815749235474
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 49.450104882699,
+      "downpayment": 32245.8,
+      "mortgage_payment": 327.45,
+      "price_to_rent": 32.2200239808153
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 6.31903418126,
+      "downpayment": 17757,
+      "mortgage_payment": 180.32,
+      "price_to_rent": 28.3477011494253
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 92.782353231983,
+      "downpayment": 44391,
+      "mortgage_payment": 450.78,
+      "price_to_rent": 34.4436685288641
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 120.321779796777,
+      "downpayment": 40111.2,
+      "mortgage_payment": 407.32,
+      "price_to_rent": 38.8222996515679
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -20.78007822406,
+      "downpayment": 19913.7,
+      "mortgage_payment": 202.22,
+      "price_to_rent": 24.8053064275037
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 222.134898299812,
+      "downpayment": 62151.3,
+      "mortgage_payment": 631.13,
+      "price_to_rent": 42.210880195599
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 235.168241979954,
+      "downpayment": 49648.2,
+      "mortgage_payment": 504.17,
+      "price_to_rent": 51.2682775712515
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -5.41233709165,
+      "downpayment": 22411.8,
+      "mortgage_payment": 227.59,
+      "price_to_rent": 26.7188841201717
+    }
+  },
+  {
+    "year": "2011",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -46.166603499826,
+      "downpayment": 28049.1,
+      "mortgage_payment": 284.83,
+      "price_to_rent": 23.5390231621349
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -35.07864848035,
+      "downpayment": 20278.2,
+      "mortgage_payment": 205.92,
+      "price_to_rent": 23.3727524204703
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": -7.022915142897,
+      "downpayment": 17427.9,
+      "mortgage_payment": 176.98,
+      "price_to_rent": 26.3102355072464
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": -3.935952357924,
+      "downpayment": 30533.7,
+      "mortgage_payment": 310.06,
+      "price_to_rent": 27.0114118895966
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 9.628686937771,
+      "downpayment": 24582.3,
+      "mortgage_payment": 249.63,
+      "price_to_rent": 28.4517361111111
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 3.530042567594,
+      "downpayment": 16891.5,
+      "mortgage_payment": 171.53,
+      "price_to_rent": 27.9290674603175
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 53.351459226296,
+      "downpayment": 40606.5,
+      "mortgage_payment": 412.35,
+      "price_to_rent": 31.419452181987
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 88.269373724643,
+      "downpayment": 37053.3,
+      "mortgage_payment": 376.27,
+      "price_to_rent": 35.7381365740741
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 17.225229651591,
+      "downpayment": 20406.6,
+      "mortgage_payment": 207.23,
+      "price_to_rent": 29.8342105263158
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 112.616798130878,
+      "downpayment": 50381.7,
+      "mortgage_payment": 511.62,
+      "price_to_rent": 35.0749791144528
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 171.148599224385,
+      "downpayment": 46298.1,
+      "mortgage_payment": 470.15,
+      "price_to_rent": 43.0119843924192
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -18.914981668773,
+      "downpayment": 21968.4,
+      "mortgage_payment": 223.09,
+      "price_to_rent": 25.2162534435262
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 246.765119106627,
+      "downpayment": 70485.3,
+      "mortgage_payment": 715.77,
+      "price_to_rent": 41.7468017057569
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 360.394500022635,
+      "downpayment": 64441.8,
+      "mortgage_payment": 654.39,
+      "price_to_rent": 60.8860544217687
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -8.742194245902,
+      "downpayment": 24053.4,
+      "mortgage_payment": 244.26,
+      "price_to_rent": 26.4090909090909
+    }
+  },
+  {
+    "year": "2012",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 5.009118038844,
+      "downpayment": 32497.8,
+      "mortgage_payment": 330.01,
+      "price_to_rent": 27.7758974358974
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 6.496194695722,
+      "downpayment": 23978.4,
+      "mortgage_payment": 243.5,
+      "price_to_rent": 28.1040787623066
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 13.634219470291,
+      "downpayment": 20348.4,
+      "mortgage_payment": 206.63,
+      "price_to_rent": 29.286701208981
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 37.683092341642,
+      "downpayment": 33647.4,
+      "mortgage_payment": 341.68,
+      "price_to_rent": 30.7450657894737
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 51.310174383421,
+      "downpayment": 27899.1,
+      "mortgage_payment": 283.31,
+      "price_to_rent": 33.4040948275862
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 23.990690888423,
+      "downpayment": 19595.7,
+      "mortgage_payment": 198.99,
+      "price_to_rent": 31.1042857142857
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 86.808332254294,
+      "downpayment": 42621,
+      "mortgage_payment": 432.81,
+      "price_to_rent": 34.2172447013487
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 109.733890945333,
+      "downpayment": 38477.7,
+      "mortgage_payment": 390.73,
+      "price_to_rent": 38.0364768683274
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 39.75063831414,
+      "downpayment": 22624.8,
+      "mortgage_payment": 229.75,
+      "price_to_rent": 33.0771929824561
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 150.270886299832,
+      "downpayment": 53301.9,
+      "mortgage_payment": 541.27,
+      "price_to_rent": 37.867220801364
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 212.661111982807,
+      "downpayment": 47431.8,
+      "mortgage_payment": 481.66,
+      "price_to_rent": 48.9795539033457
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -14.566976898961,
+      "downpayment": 23085.9,
+      "mortgage_payment": 234.43,
+      "price_to_rent": 25.754016064257
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 325.186705286962,
+      "downpayment": 77814,
+      "mortgage_payment": 790.19,
+      "price_to_rent": 46.4838709677419
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 272.806948156495,
+      "downpayment": 55718.1,
+      "mortgage_payment": 565.81,
+      "price_to_rent": 52.8233788395904
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -20.137578033282,
+      "downpayment": 26279.4,
+      "mortgage_payment": 266.86,
+      "price_to_rent": 25.4349593495935
+    }
+  },
+  {
+    "year": "2013",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -1.361240231693,
+      "downpayment": 36991.2,
+      "mortgage_payment": 375.64,
+      "price_to_rent": 27.2555260831123
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -4.172715109699,
+      "downpayment": 28442.4,
+      "mortgage_payment": 288.83,
+      "price_to_rent": 26.9647326507395
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 13.257002019877,
+      "downpayment": 24939.6,
+      "mortgage_payment": 253.26,
+      "price_to_rent": 28.8652777777778
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 38.807790619753,
+      "downpayment": 37992.6,
+      "mortgage_payment": 385.81,
+      "price_to_rent": 30.4135446685879
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 37.005380188824,
+      "downpayment": 31020.3,
+      "mortgage_payment": 315.01,
+      "price_to_rent": 30.9955035971223
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 24.851170973845,
+      "downpayment": 22634.7,
+      "mortgage_payment": 229.85,
+      "price_to_rent": 30.670325203252
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 102.846926359645,
+      "downpayment": 47844,
+      "mortgage_payment": 485.85,
+      "price_to_rent": 34.6997389033943
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 116.916527828098,
+      "downpayment": 41646.9,
+      "mortgage_payment": 422.92,
+      "price_to_rent": 37.8058278867102
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 35.897484157512,
+      "downpayment": 25692,
+      "mortgage_payment": 260.9,
+      "price_to_rent": 31.7185185185185
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 144.074287679039,
+      "downpayment": 55449,
+      "mortgage_payment": 563.07,
+      "price_to_rent": 36.7601431980907
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 170.424255624003,
+      "downpayment": 47310,
+      "mortgage_payment": 480.42,
+      "price_to_rent": 42.3924731182796
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": -0.838914169964,
+      "downpayment": 23945.4,
+      "mortgage_payment": 243.16,
+      "price_to_rent": 27.2602459016393
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 300.498265054407,
+      "downpayment": 76564.5,
+      "mortgage_payment": 777.5,
+      "price_to_rent": 44.5868273934312
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 250.878417906845,
+      "downpayment": 58285.5,
+      "mortgage_payment": 591.88,
+      "price_to_rent": 47.4792277614858
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -16.354510815431,
+      "downpayment": 23599.2,
+      "mortgage_payment": 239.65,
+      "price_to_rent": 25.6067708333333
+    }
+  },
+  {
+    "year": "2014",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -4.276780970187,
+      "downpayment": 38673.6,
+      "mortgage_payment": 392.72,
+      "price_to_rent": 27.0596137699412
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 7.057917310798,
+      "downpayment": 31320.9,
+      "mortgage_payment": 318.06,
+      "price_to_rent": 27.9750803858521
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 25.554674934917,
+      "downpayment": 27430.8,
+      "mortgage_payment": 278.55,
+      "price_to_rent": 30.1172595520422
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 36.907519545237,
+      "downpayment": 38888.7,
+      "mortgage_payment": 394.91,
+      "price_to_rent": 30.1743482309125
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 31.514061490197,
+      "downpayment": 32646,
+      "mortgage_payment": 331.51,
+      "price_to_rent": 30.2277777777778
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 30.21209036919,
+      "downpayment": 24442.8,
+      "mortgage_payment": 248.21,
+      "price_to_rent": 31.1452599388379
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 77.299407574647,
+      "downpayment": 46116,
+      "mortgage_payment": 468.3,
+      "price_to_rent": 32.7621483375959
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 101.194520544756,
+      "downpayment": 41575.8,
+      "mortgage_payment": 422.19,
+      "price_to_rent": 35.9776739356179
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 45.982728431833,
+      "downpayment": 26882.1,
+      "mortgage_payment": 272.98,
+      "price_to_rent": 32.8953744493392
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 148.429974084355,
+      "downpayment": 55188.6,
+      "mortgage_payment": 560.43,
+      "price_to_rent": 37.209142394822
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 166.220106417547,
+      "downpayment": 48077.7,
+      "mortgage_payment": 488.22,
+      "price_to_rent": 41.4748964803313
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 10.407006635917,
+      "downpayment": 25643.7,
+      "mortgage_payment": 260.41,
+      "price_to_rent": 28.493
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 295.562315268933,
+      "downpayment": 74995.2,
+      "mortgage_payment": 761.56,
+      "price_to_rent": 44.7038626609442
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 388.803190298843,
+      "downpayment": 70686,
+      "mortgage_payment": 717.8,
+      "price_to_rent": 59.6808510638298
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": -22.547128207928,
+      "downpayment": 22103.1,
+      "mortgage_payment": 224.45,
+      "price_to_rent": 24.8572874493927
+    }
+  },
+  {
+    "year": "2015",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 11.349776872231,
+      "downpayment": 43954.5,
+      "mortgage_payment": 446.35,
+      "price_to_rent": 28.0680076628352
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 14.34332956328,
+      "downpayment": 35386.5,
+      "mortgage_payment": 359.34,
+      "price_to_rent": 28.4915458937198
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 56.29396993538,
+      "downpayment": 32328.9,
+      "mortgage_payment": 328.29,
+      "price_to_rent": 33.015625
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 58.77930678775,
+      "downpayment": 44390.7,
+      "mortgage_payment": 450.78,
+      "price_to_rent": 31.4559948979592
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 44.601473588907,
+      "downpayment": 36298.2,
+      "mortgage_payment": 368.6,
+      "price_to_rent": 31.1198559670782
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 49.270551886979,
+      "downpayment": 28289.1,
+      "mortgage_payment": 287.27,
+      "price_to_rent": 33.0171568627451
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 102.525348639656,
+      "downpayment": 51554.4,
+      "mortgage_payment": 523.53,
+      "price_to_rent": 34.0158353127474
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 98.859261907825,
+      "downpayment": 44694,
+      "mortgage_payment": 453.86,
+      "price_to_rent": 34.9718309859155
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 59.799773285171,
+      "downpayment": 30409.2,
+      "mortgage_payment": 308.8,
+      "price_to_rent": 33.9236947791165
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 167.355887195878,
+      "downpayment": 59612.7,
+      "mortgage_payment": 605.36,
+      "price_to_rent": 37.8061263318113
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 159.628236337808,
+      "downpayment": 50087.4,
+      "mortgage_payment": 508.63,
+      "price_to_rent": 39.8658070678128
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 39.389325769275,
+      "downpayment": 29088.6,
+      "mortgage_payment": 295.39,
+      "price_to_rent": 31.5631510416667
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 261.207563647679,
+      "downpayment": 71612.1,
+      "mortgage_payment": 727.21,
+      "price_to_rent": 42.6872317596567
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 287.045037555626,
+      "downpayment": 61945.5,
+      "mortgage_payment": 629.05,
+      "price_to_rent": 50.3131091617934
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 14.323182615982,
+      "downpayment": 26620.2,
+      "mortgage_payment": 270.32,
+      "price_to_rent": 28.884765625
+    }
+  },
+  {
+    "year": "2016",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 4.062775872712,
+      "downpayment": 41267.4,
+      "mortgage_payment": 419.06,
+      "price_to_rent": 27.6220883534137
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 13.682326050232,
+      "downpayment": 33745.8,
+      "mortgage_payment": 342.68,
+      "price_to_rent": 28.4918946301925
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 46.808893896466,
+      "downpayment": 30804,
+      "mortgage_payment": 312.81,
+      "price_to_rent": 32.1679197994987
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 54.815976446986,
+      "downpayment": 42030.9,
+      "mortgage_payment": 426.82,
+      "price_to_rent": 31.3850806451613
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 50.753870686205,
+      "downpayment": 34737.6,
+      "mortgage_payment": 352.75,
+      "price_to_rent": 31.9514348785872
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 54.096175717071,
+      "downpayment": 27582.6,
+      "mortgage_payment": 280.1,
+      "price_to_rent": 33.9019174041298
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 100.750916562775,
+      "downpayment": 48819.3,
+      "mortgage_payment": 495.75,
+      "price_to_rent": 34.3314345991561
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 125.94074961072,
+      "downpayment": 44800.5,
+      "mortgage_payment": 454.94,
+      "price_to_rent": 37.8254812563323
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 64.975756923522,
+      "downpayment": 29343.3,
+      "mortgage_payment": 297.98,
+      "price_to_rent": 34.9824749642346
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 180.044402314057,
+      "downpayment": 59286.6,
+      "mortgage_payment": 602.04,
+      "price_to_rent": 39.0248815165877
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 185.741702344452,
+      "downpayment": 50394,
+      "mortgage_payment": 511.74,
+      "price_to_rent": 42.939672801636
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 41.473897359214,
+      "downpayment": 28407.6,
+      "mortgage_payment": 288.47,
+      "price_to_rent": 31.9473684210526
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 294.298956974684,
+      "downpayment": 71621.1,
+      "mortgage_payment": 727.3,
+      "price_to_rent": 45.9463048498845
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 356.861128903497,
+      "downpayment": 69510,
+      "mortgage_payment": 705.86,
+      "price_to_rent": 55.3247373447947
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 16.474832143276,
+      "downpayment": 24764.1,
+      "mortgage_payment": 251.47,
+      "price_to_rent": 29.2719858156028
+    }
+  },
+  {
+    "year": "2017",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 30.230797054473,
+      "downpayment": 47487.9,
+      "mortgage_payment": 482.23,
+      "price_to_rent": 29.1838126843658
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 43.737666238165,
+      "downpayment": 39167.4,
+      "mortgage_payment": 397.74,
+      "price_to_rent": 30.7339924670433
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 74.548151454118,
+      "downpayment": 36489.9,
+      "mortgage_payment": 370.55,
+      "price_to_rent": 34.2435247747748
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 87.051019401884,
+      "downpayment": 48258,
+      "mortgage_payment": 490.05,
+      "price_to_rent": 33.2630272952854
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 72.270027687619,
+      "downpayment": 39318.3,
+      "mortgage_payment": 399.27,
+      "price_to_rent": 33.3998470948012
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 73.610818857071,
+      "downpayment": 31966.2,
+      "mortgage_payment": 324.61,
+      "price_to_rent": 35.3764940239044
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 133.803135420851,
+      "downpayment": 55816.2,
+      "mortgage_payment": 566.8,
+      "price_to_rent": 35.8071593533487
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 141.560504437478,
+      "downpayment": 48997.5,
+      "mortgage_payment": 497.56,
+      "price_to_rent": 38.2315074906367
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 84.654141760721,
+      "downpayment": 33841.5,
+      "mortgage_payment": 343.65,
+      "price_to_rent": 36.295045045045
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 213.477501586944,
+      "downpayment": 64745.4,
+      "mortgage_payment": 657.48,
+      "price_to_rent": 40.5063813813814
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 199.280754481131,
+      "downpayment": 53992.2,
+      "mortgage_payment": 548.28,
+      "price_to_rent": 42.9737344794651
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 58.499670446062,
+      "downpayment": 30970.5,
+      "mortgage_payment": 314.5,
+      "price_to_rent": 33.6051432291667
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 312.503647815681,
+      "downpayment": 75481.8,
+      "mortgage_payment": 766.5,
+      "price_to_rent": 46.1831864904552
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 464.952689436929,
+      "downpayment": 82025.4,
+      "mortgage_payment": 832.95,
+      "price_to_rent": 61.9153079710145
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 39.61788397241,
+      "downpayment": 27535.5,
+      "mortgage_payment": 279.62,
+      "price_to_rent": 31.8697916666667
+    }
+  },
+  {
+    "year": "2018",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 61.612050611173,
+      "downpayment": 54123.3,
+      "mortgage_payment": 549.61,
+      "price_to_rent": 30.8078893442623
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 65.631526160316,
+      "downpayment": 44967,
+      "mortgage_payment": 456.63,
+      "price_to_rent": 31.9458653026428
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 107.664439248126,
+      "downpayment": 41523.6,
+      "mortgage_payment": 421.66,
+      "price_to_rent": 36.7335456475584
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 109.179511694233,
+      "downpayment": 52899,
+      "mortgage_payment": 537.18,
+      "price_to_rent": 34.3321651090343
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 95.317779847076,
+      "downpayment": 44148.3,
+      "mortgage_payment": 448.32,
+      "price_to_rent": 34.7405571293673
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 98.777419784446,
+      "downpayment": 36020.1,
+      "mortgage_payment": 365.78,
+      "price_to_rent": 37.4740948813983
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 186.529366024537,
+      "downpayment": 63174.9,
+      "mortgage_payment": 641.53,
+      "price_to_rent": 38.568315018315
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 164.929684545679,
+      "downpayment": 53268.3,
+      "mortgage_payment": 540.93,
+      "price_to_rent": 39.3530585106383
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 120.724751612632,
+      "downpayment": 38476.8,
+      "mortgage_payment": 390.72,
+      "price_to_rent": 39.5851851851852
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 254.84513039092,
+      "downpayment": 69606.9,
+      "mortgage_payment": 706.85,
+      "price_to_rent": 42.7771017699115
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 213.044439756868,
+      "downpayment": 58498.8,
+      "mortgage_payment": 594.04,
+      "price_to_rent": 42.6500437445319
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 85.624387445578,
+      "downpayment": 34921.8,
+      "mortgage_payment": 354.62,
+      "price_to_rent": 36.0613382899628
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 398.407188705074,
+      "downpayment": 85910.7,
+      "mortgage_payment": 872.41,
+      "price_to_rent": 50.3461673699015
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 452.872005468255,
+      "downpayment": 81032.7,
+      "mortgage_payment": 822.87,
+      "price_to_rent": 60.8353603603604
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 62.420462895991,
+      "downpayment": 30962.7,
+      "mortgage_payment": 314.42,
+      "price_to_rent": 34.1299603174603
+    }
+  },
+  {
+    "year": "2019",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 61.094999498214,
+      "downpayment": 55037.1,
+      "mortgage_payment": 568.09,
+      "price_to_rent": 30.1540105193951
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 96.14958293257,
+      "downpayment": 47195.1,
+      "mortgage_payment": 487.15,
+      "price_to_rent": 33.5287723785166
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 131.971258128112,
+      "downpayment": 43399.5,
+      "mortgage_payment": 447.97,
+      "price_to_rent": 38.150052742616
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 135.701729876797,
+      "downpayment": 54999,
+      "mortgage_payment": 567.7,
+      "price_to_rent": 35.3645833333333
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 125.583740129483,
+      "downpayment": 46074.6,
+      "mortgage_payment": 475.58,
+      "price_to_rent": 36.5671428571429
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 122.593738516551,
+      "downpayment": 37647,
+      "mortgage_payment": 388.59,
+      "price_to_rent": 39.3139097744361
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 212.043086460152,
+      "downpayment": 64138.8,
+      "mortgage_payment": 662.04,
+      "price_to_rent": 39.5918518518519
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 212.064018001592,
+      "downpayment": 56487.3,
+      "mortgage_payment": 583.06,
+      "price_to_rent": 42.2935759209344
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 139.338142308592,
+      "downpayment": 39753.6,
+      "mortgage_payment": 410.34,
+      "price_to_rent": 40.7478474784748
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 307.952971627586,
+      "downpayment": 74205.6,
+      "mortgage_payment": 765.95,
+      "price_to_rent": 45.0058224163028
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 269.882298862651,
+      "downpayment": 61313.7,
+      "mortgage_payment": 632.88,
+      "price_to_rent": 46.9189623507805
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 109.483097558726,
+      "downpayment": 36570.6,
+      "mortgage_payment": 377.48,
+      "price_to_rent": 37.9048507462687
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 403.370906445651,
+      "downpayment": 84418.5,
+      "mortgage_payment": 871.37,
+      "price_to_rent": 50.1059472934473
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 379.636295625578,
+      "downpayment": 73787.4,
+      "mortgage_payment": 761.64,
+      "price_to_rent": 53.6557591623037
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 52.17847409478,
+      "downpayment": 28693.8,
+      "mortgage_payment": 296.18,
+      "price_to_rent": 32.6659836065574
+    }
+  },
+  {
+    "year": "2020",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 124.733814773485,
+      "downpayment": 56104.8,
+      "mortgage_payment": 569.73,
+      "price_to_rent": 35.0217228464419
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 127.368578450767,
+      "downpayment": 48978.6,
+      "mortgage_payment": 497.37,
+      "price_to_rent": 36.7707207207207
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 157.284231517696,
+      "downpayment": 44932.8,
+      "mortgage_payment": 456.28,
+      "price_to_rent": 41.7435897435897
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 161.848121957161,
+      "downpayment": 54737.4,
+      "mortgage_payment": 555.85,
+      "price_to_rent": 38.5909475465313
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 158.585679725568,
+      "downpayment": 48113.7,
+      "mortgage_payment": 488.59,
+      "price_to_rent": 40.4997474747475
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 148.343889919227,
+      "downpayment": 39621,
+      "mortgage_payment": 402.34,
+      "price_to_rent": 43.3300524934383
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 235.048775405647,
+      "downpayment": 63423,
+      "mortgage_payment": 644.05,
+      "price_to_rent": 43.0745721271394
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 224.930301065843,
+      "downpayment": 56321.1,
+      "mortgage_payment": 571.93,
+      "price_to_rent": 45.085734870317
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 138.081933157957,
+      "downpayment": 38807.4,
+      "mortgage_payment": 394.08,
+      "price_to_rent": 42.1087239583333
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 301.805470451667,
+      "downpayment": 70784.7,
+      "mortgage_payment": 718.81,
+      "price_to_rent": 47.1520783373301
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 258.571455887859,
+      "downpayment": 58944.6,
+      "mortgage_payment": 598.57,
+      "price_to_rent": 48.1573529411765
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 113.224480795362,
+      "downpayment": 36162.6,
+      "mortgage_payment": 367.22,
+      "price_to_rent": 39.5479002624672
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 410.464492068158,
+      "downpayment": 82075.8,
+      "mortgage_payment": 833.46,
+      "price_to_rent": 53.897951142632
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 419.832645071494,
+      "downpayment": 75908.1,
+      "mortgage_payment": 770.83,
+      "price_to_rent": 60.0728869895537
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 79.722845887923,
+      "downpayment": 30500.1,
+      "mortgage_payment": 309.72,
+      "price_to_rent": 36.8358695652174
+    }
+  },
+  {
+    "year": "2021",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 131.593640895932,
+      "downpayment": 56878.8,
+      "mortgage_payment": 577.59,
+      "price_to_rent": 35.4252615844544
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 128.185754353945,
+      "downpayment": 49748.4,
+      "mortgage_payment": 505.19,
+      "price_to_rent": 36.6551724137931
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 158.390053331648,
+      "downpayment": 45829.5,
+      "mortgage_payment": 465.39,
+      "price_to_rent": 41.4671552660152
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 170.346187507231,
+      "downpayment": 55377.3,
+      "mortgage_payment": 562.35,
+      "price_to_rent": 39.2412840136054
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 160.162971547114,
+      "downpayment": 48367.5,
+      "mortgage_payment": 491.16,
+      "price_to_rent": 40.5903826787513
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 155.69036210622,
+      "downpayment": 40935.3,
+      "mortgage_payment": 415.69,
+      "price_to_rent": 43.7342948717949
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 245.867465170239,
+      "downpayment": 64389.9,
+      "mortgage_payment": 653.87,
+      "price_to_rent": 43.8384395424837
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 225.171717730294,
+      "downpayment": 56640.3,
+      "mortgage_payment": 575.17,
+      "price_to_rent": 44.952619047619
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 155.605809237686,
+      "downpayment": 41222.4,
+      "mortgage_payment": 418.61,
+      "price_to_rent": 43.5386565272497
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 332.893667563193,
+      "downpayment": 73944.6,
+      "mortgage_payment": 750.89,
+      "price_to_rent": 49.1391547049442
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 292.754802897816,
+      "downpayment": 63197.1,
+      "mortgage_payment": 641.75,
+      "price_to_rent": 50.3001432664756
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 124.882437864176,
+      "downpayment": 37803,
+      "mortgage_payment": 383.88,
+      "price_to_rent": 40.543758043758
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 450.154333833693,
+      "downpayment": 85885.8,
+      "mortgage_payment": 872.15,
+      "price_to_rent": 56.533570300158
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 315.718749758744,
+      "downpayment": 68609.7,
+      "mortgage_payment": 696.72,
+      "price_to_rent": 50.0216535433071
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 112.104211773059,
+      "downpayment": 34772.1,
+      "mortgage_payment": 353.1,
+      "price_to_rent": 40.0784923928077
+    }
+  },
+  {
+    "year": "2022",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 82.29075371227,
+      "downpayment": 51925.2,
+      "mortgage_payment": 527.29,
+      "price_to_rent": 32.412734082397
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 87.851598993727,
+      "downpayment": 45678,
+      "mortgage_payment": 463.85,
+      "price_to_rent": 33.7455673758865
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 130.158654619741,
+      "downpayment": 43049.4,
+      "mortgage_payment": 437.16,
+      "price_to_rent": 38.9516829533116
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 147.40193956609,
+      "downpayment": 52133.1,
+      "mortgage_payment": 529.4,
+      "price_to_rent": 37.9094677137871
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 140.842459661026,
+      "downpayment": 45677.1,
+      "mortgage_payment": 463.84,
+      "price_to_rent": 39.281991744066
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 143.566299069679,
+      "downpayment": 39249,
+      "mortgage_payment": 398.57,
+      "price_to_rent": 42.7549019607843
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 217.934655436028,
+      "downpayment": 60851.4,
+      "mortgage_payment": 617.93,
+      "price_to_rent": 42.2579166666667
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 183.625881299361,
+      "downpayment": 51564.3,
+      "mortgage_payment": 523.63,
+      "price_to_rent": 42.1276960784314
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 154.233414192599,
+      "downpayment": 40496.4,
+      "mortgage_payment": 411.23,
+      "price_to_rent": 43.7704280155642
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 285.598405850817,
+      "downpayment": 68794.8,
+      "mortgage_payment": 698.6,
+      "price_to_rent": 46.2703793381759
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 241.728469455022,
+      "downpayment": 56399.7,
+      "mortgage_payment": 572.73,
+      "price_to_rent": 47.3310674723061
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 109.73097555094,
+      "downpayment": 35720.1,
+      "mortgage_payment": 362.73,
+      "price_to_rent": 39.2183794466403
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 334.778612809512,
+      "downpayment": 75016.5,
+      "mortgage_payment": 761.78,
+      "price_to_rent": 48.8007416081187
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 323.323628071044,
+      "downpayment": 65321.1,
+      "mortgage_payment": 663.32,
+      "price_to_rent": 53.3669117647059
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 102.667916284692,
+      "downpayment": 32464.2,
+      "mortgage_payment": 329.67,
+      "price_to_rent": 39.7261380323054
+    }
+  },
+  {
+    "year": "2023",
+    "Class A Hong Kong": {
+      "diff_mort_rent": 51.490717058874,
+      "downpayment": 46224.3,
+      "mortgage_payment": 507.49,
+      "price_to_rent": 28.1580774853801
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": 45.46851731854,
+      "downpayment": 40392.9,
+      "mortgage_payment": 443.47,
+      "price_to_rent": 28.1915829145729
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 115.225450110069,
+      "downpayment": 39004.5,
+      "mortgage_payment": 428.23,
+      "price_to_rent": 34.6152822151225
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 145.790302497566,
+      "downpayment": 47891.1,
+      "mortgage_payment": 525.79,
+      "price_to_rent": 35.0081140350877
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 131.977928625716,
+      "downpayment": 42716.4,
+      "mortgage_payment": 468.98,
+      "price_to_rent": 35.2096933728981
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 144.247065601731,
+      "downpayment": 36547.2,
+      "mortgage_payment": 401.25,
+      "price_to_rent": 39.5019455252918
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 221.869796838567,
+      "downpayment": 57826.5,
+      "mortgage_payment": 634.87,
+      "price_to_rent": 38.8932606941082
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 183.522547392578,
+      "downpayment": 48504.3,
+      "mortgage_payment": 532.52,
+      "price_to_rent": 38.6057784145177
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 174.50466413519,
+      "downpayment": 39212.1,
+      "mortgage_payment": 430.5,
+      "price_to_rent": 42.5478515625
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 284.008852679387,
+      "downpayment": 64488.3,
+      "mortgage_payment": 708.01,
+      "price_to_rent": 42.2486242138365
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 264.001681106943,
+      "downpayment": 56199,
+      "mortgage_payment": 617,
+      "price_to_rent": 44.2233238904627
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 151.581745900756,
+      "downpayment": 36486.6,
+      "mortgage_payment": 400.58,
+      "price_to_rent": 40.7034805890228
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 438.28809978144,
+      "downpayment": 79542.6,
+      "mortgage_payment": 873.29,
+      "price_to_rent": 50.7934865900383
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 286.674143245105,
+      "downpayment": 60541.2,
+      "mortgage_payment": 664.67,
+      "price_to_rent": 44.489417989418
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 134.373468831491,
+      "downpayment": 32642.1,
+      "mortgage_payment": 358.37,
+      "price_to_rent": 40.4787946428571
+    }
+  },
+  {
+    "year": "2024",
+    "Class A Hong Kong": {
+      "diff_mort_rent": -26.811730057853,
+      "downpayment": 40139.4,
+      "mortgage_payment": 454.19,
+      "price_to_rent": 23.1805266805267
+    },
+    "Class A Kowloon": {
+      "diff_mort_rent": -35.123266792798,
+      "downpayment": 34809.3,
+      "mortgage_payment": 393.88,
+      "price_to_rent": 22.5390442890443
+    },
+    "Class A New Territories": {
+      "diff_mort_rent": 50.860504514762,
+      "downpayment": 33570.6,
+      "mortgage_payment": 379.86,
+      "price_to_rent": 28.3439716312057
+    },
+    "Class B Hong Kong": {
+      "diff_mort_rent": 83.579742603676,
+      "downpayment": 42383.4,
+      "mortgage_payment": 479.58,
+      "price_to_rent": 29.7302188552189
+    },
+    "Class B Kowloon": {
+      "diff_mort_rent": 66.183779617973,
+      "downpayment": 37929.6,
+      "mortgage_payment": 429.18,
+      "price_to_rent": 29.0247933884298
+    },
+    "Class B New Territories": {
+      "diff_mort_rent": 98.137020271745,
+      "downpayment": 32622.9,
+      "mortgage_payment": 369.14,
+      "price_to_rent": 33.4388068880689
+    },
+    "Class C Hong Kong": {
+      "diff_mort_rent": 139.25220076299,
+      "downpayment": 49954.8,
+      "mortgage_payment": 565.25,
+      "price_to_rent": 32.5735524256651
+    },
+    "Class C Kowloon": {
+      "diff_mort_rent": 173.47455616956,
+      "downpayment": 47941.8,
+      "mortgage_payment": 542.47,
+      "price_to_rent": 36.0898825654923
+    },
+    "Class C New Territories": {
+      "diff_mort_rent": 131.947647318695,
+      "downpayment": 35434.2,
+      "mortgage_payment": 400.95,
+      "price_to_rent": 36.590458488228
+    },
+    "Class D Hong Kong": {
+      "diff_mort_rent": 263.752325067148,
+      "downpayment": 61841.4,
+      "mortgage_payment": 699.75,
+      "price_to_rent": 39.3994648318043
+    },
+    "Class D Kowloon": {
+      "diff_mort_rent": 243.720194185825,
+      "downpayment": 53177.7,
+      "mortgage_payment": 601.72,
+      "price_to_rent": 41.2614059590317
+    },
+    "Class D New Territories": {
+      "diff_mort_rent": 122.75306040775,
+      "downpayment": 33207.6,
+      "mortgage_payment": 375.75,
+      "price_to_rent": 36.4598155467721
+    },
+    "Class E Hong Kong": {
+      "diff_mort_rent": 399.55840003981,
+      "downpayment": 74638.8,
+      "mortgage_payment": 844.56,
+      "price_to_rent": 46.5910112359551
+    },
+    "Class E Kowloon": {
+      "diff_mort_rent": 293.82251554492,
+      "downpayment": 59638.2,
+      "mortgage_payment": 674.82,
+      "price_to_rent": 43.4807524059493
+    },
+    "Class E New Territories": {
+      "diff_mort_rent": 105.548595671271,
+      "downpayment": 28859.1,
+      "mortgage_payment": 326.55,
+      "price_to_rent": 36.2733785822021
+    }
+  }
+]
