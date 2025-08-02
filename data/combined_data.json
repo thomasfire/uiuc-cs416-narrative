@@ -1,6 +1,6 @@
 [
   {
-    "year": "1999",
+    "Year": "1999",
     "Class A Hong Kong": {
       "diff_mort_rent": 3.528495198683,
       "downpayment": 12558.3,
@@ -93,7 +93,7 @@
     }
   },
   {
-    "year": "2000",
+    "Year": "2000",
     "Class A Hong Kong": {
       "diff_mort_rent": -28.666784331709,
       "downpayment": 10792.5,
@@ -186,7 +186,7 @@
     }
   },
   {
-    "year": "2001",
+    "Year": "2001",
     "Class A Hong Kong": {
       "diff_mort_rent": -32.894248756796,
       "downpayment": 9576.6,
@@ -279,7 +279,7 @@
     }
   },
   {
-    "year": "2002",
+    "Year": "2002",
     "Class A Hong Kong": {
       "diff_mort_rent": -75.1611160901891,
       "downpayment": 8703.6,
@@ -372,7 +372,7 @@
     }
   },
   {
-    "year": "2003",
+    "Year": "2003",
     "Class A Hong Kong": {
       "diff_mort_rent": -73.5662467641371,
       "downpayment": 7723.8,
@@ -465,7 +465,7 @@
     }
   },
   {
-    "year": "2004",
+    "Year": "2004",
     "Class A Hong Kong": {
       "diff_mort_rent": -67.8839368628602,
       "downpayment": 9760.5,
@@ -558,7 +558,7 @@
     }
   },
   {
-    "year": "2005",
+    "Year": "2005",
     "Class A Hong Kong": {
       "diff_mort_rent": -68.707336704346,
       "downpayment": 11747.4,
@@ -651,7 +651,7 @@
     }
   },
   {
-    "year": "2006",
+    "Year": "2006",
     "Class A Hong Kong": {
       "diff_mort_rent": -36.169016834107,
       "downpayment": 12854.7,
@@ -744,7 +744,7 @@
     }
   },
   {
-    "year": "2007",
+    "Year": "2007",
     "Class A Hong Kong": {
       "diff_mort_rent": -26.538127570984,
       "downpayment": 15687.6,
@@ -837,7 +837,7 @@
     }
   },
   {
-    "year": "2008",
+    "Year": "2008",
     "Class A Hong Kong": {
       "diff_mort_rent": -42.690082455653,
       "downpayment": 19199.1,
@@ -930,7 +930,7 @@
     }
   },
   {
-    "year": "2009",
+    "Year": "2009",
     "Class A Hong Kong": {
       "diff_mort_rent": -47.632260153815,
       "downpayment": 18549.6,
@@ -1023,7 +1023,7 @@
     }
   },
   {
-    "year": "2010",
+    "Year": "2010",
     "Class A Hong Kong": {
       "diff_mort_rent": -53.799254230711,
       "downpayment": 22767.6,
@@ -1116,7 +1116,7 @@
     }
   },
   {
-    "year": "2011",
+    "Year": "2011",
     "Class A Hong Kong": {
       "diff_mort_rent": -46.166603499826,
       "downpayment": 28049.1,
@@ -1209,7 +1209,7 @@
     }
   },
   {
-    "year": "2012",
+    "Year": "2012",
     "Class A Hong Kong": {
       "diff_mort_rent": 5.009118038844,
       "downpayment": 32497.8,
@@ -1302,7 +1302,7 @@
     }
   },
   {
-    "year": "2013",
+    "Year": "2013",
     "Class A Hong Kong": {
       "diff_mort_rent": -1.361240231693,
       "downpayment": 36991.2,
@@ -1395,7 +1395,7 @@
     }
   },
   {
-    "year": "2014",
+    "Year": "2014",
     "Class A Hong Kong": {
       "diff_mort_rent": -4.276780970187,
       "downpayment": 38673.6,
@@ -1488,7 +1488,7 @@
     }
   },
   {
-    "year": "2015",
+    "Year": "2015",
     "Class A Hong Kong": {
       "diff_mort_rent": 11.349776872231,
       "downpayment": 43954.5,
@@ -1581,7 +1581,7 @@
     }
   },
   {
-    "year": "2016",
+    "Year": "2016",
     "Class A Hong Kong": {
       "diff_mort_rent": 4.062775872712,
       "downpayment": 41267.4,
@@ -1674,7 +1674,7 @@
     }
   },
   {
-    "year": "2017",
+    "Year": "2017",
     "Class A Hong Kong": {
       "diff_mort_rent": 30.230797054473,
       "downpayment": 47487.9,
@@ -1767,7 +1767,7 @@
     }
   },
   {
-    "year": "2018",
+    "Year": "2018",
     "Class A Hong Kong": {
       "diff_mort_rent": 61.612050611173,
       "downpayment": 54123.3,
@@ -1860,7 +1860,7 @@
     }
   },
   {
-    "year": "2019",
+    "Year": "2019",
     "Class A Hong Kong": {
       "diff_mort_rent": 61.094999498214,
       "downpayment": 55037.1,
@@ -1953,7 +1953,7 @@
     }
   },
   {
-    "year": "2020",
+    "Year": "2020",
     "Class A Hong Kong": {
       "diff_mort_rent": 124.733814773485,
       "downpayment": 56104.8,
@@ -2046,7 +2046,7 @@
     }
   },
   {
-    "year": "2021",
+    "Year": "2021",
     "Class A Hong Kong": {
       "diff_mort_rent": 131.593640895932,
       "downpayment": 56878.8,
@@ -2139,7 +2139,7 @@
     }
   },
   {
-    "year": "2022",
+    "Year": "2022",
     "Class A Hong Kong": {
       "diff_mort_rent": 82.29075371227,
       "downpayment": 51925.2,
@@ -2232,7 +2232,7 @@
     }
   },
   {
-    "year": "2023",
+    "Year": "2023",
     "Class A Hong Kong": {
       "diff_mort_rent": 51.490717058874,
       "downpayment": 46224.3,
@@ -2325,7 +2325,7 @@
     }
   },
   {
-    "year": "2024",
+    "Year": "2024",
     "Class A Hong Kong": {
       "diff_mort_rent": -26.811730057853,
       "downpayment": 40139.4,

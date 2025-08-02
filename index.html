@@ -9,6 +9,7 @@
     <script src="app/scene-1.js"></script>
     <script src="app/scene-2.js"></script>
     <script src="app/scene-3.js"></script>
+    <script src="app/scene-4.js"></script>
     <script src="app/scene-control.js"></script>
     <script src="app/main.js"></script>
     <link rel="stylesheet" href="index.css"/>
@@ -45,7 +46,7 @@
         <div class="scene_footer">
             <p>Colors notation: Hong Kong Island — blue; Kowloon — yellow to red; New Territories — green. The darker the color, the lower the class of the flat.</p>
             <p>Classes: A — below 40 sq.m., B — 40-69.9 sq.m., C — 70-99.9 sq.m., D — 100-159.9 sq.m., E — more than 160 sq.m.</p>
-            <p>Scene 1 of 5</p>
+            <p>Scene 1 of 4</p>
         </div>
     </div>
     
@@ -79,7 +80,7 @@
         <div class="scene_footer">
             <p>Colors notation: Hong Kong Island — blue; Kowloon — yellow to red; New Territories — green. The darker the color, the lower the class of the flat.</p>
             <p>Classes: A — below 40 sq.m., B — 40-69.9 sq.m., C — 70-99.9 sq.m., D — 100-159.9 sq.m., E — more than 160 sq.m.</p>
-            <p>Scene 2 of 5</p>
+            <p>Scene 2 of 4</p>
         </div>
     </div>
     
@@ -100,38 +101,49 @@
             </svg>
         </div>
         <div class="scene_footer">
-            <p>Scene 3 of 5</p>
+            <p>Scene 3 of 4</p>
         </div>
     </div>
     
     <div id="scene_4" class="scene" >
         <h1 class="scene_title" id="scene_title_4">So how's the opportunity?</h1>
         <div class="scene_text" id="scene_text_4">
-            <p>Here should be a text for scene 4</p>
+            <div>
+                <div class="dropdown-group">
+                    Select primary chart to display:
+                    <select id="scene-4-variable" onchange="scene4.updateChartSelection(this.value)">
+                        <option value="diff_mort_rent" selected>Mortgage - Rent Payment Difference per sq.m., HKD</option>
+                        <option value="downpayment">30% Down Payment per sq.m., HKD</option>
+                        <option value="mortgage_payment">Monthly Mortgage Payment with 70% LTV for 30 Years, HKD</option>
+                        <option value="price_to_rent">Sale Price to Annual Rent Ratio</option>
+                    </select>
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="scene-4-class-A" checked onchange="this.checked ? scene4.addClassFilter('Class A') : scene4.removeClassFilter('Class A')">Class A</label>
+                    <label><input type="checkbox" id="scene-4-class-B" checked onchange="this.checked ? scene4.addClassFilter('Class B') : scene4.removeClassFilter('Class B')">Class B</label>
+                    <label><input type="checkbox" id="scene-4-class-C" checked onchange="this.checked ? scene4.addClassFilter('Class C') : scene4.removeClassFilter('Class C')">Class C</label>
+                    <label><input type="checkbox" id="scene-4-class-D" checked onchange="this.checked ? scene4.addClassFilter('Class D') : scene4.removeClassFilter('Class D')">Class D</label>
+                    <label><input type="checkbox" id="scene-4-class-E" checked onchange="this.checked ? scene4.addClassFilter('Class E') : scene4.removeClassFilter('Class E')">Class E</label>
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="scene-4-territory-hki" checked onchange="this.checked ? scene4.addTerritoryFilter('Hong Kong') : scene4.removeTerritoryFilter('Hong Kong')">Hong Kong</label>
+                    <label><input type="checkbox" id="scene-4-territory-kln" checked onchange="this.checked ? scene4.addTerritoryFilter('Kowloon') : scene4.removeTerritoryFilter('Kowloon')">Kowloon</label>
+                    <label><input type="checkbox" id="scene-4-territory-nt" checked onchange="this.checked ? scene4.addTerritoryFilter('New Territories') : scene4.removeTerritoryFilter('New Territories')">New Territories</label>
+                </div>
+            </div>
         </div>
         <div class="scene_graph" id="scene_graph_4">
             <svg id="scene_svg_4" class="scene_svg">
             </svg>
         </div>
         <div class="scene_footer">
-            <p>Scene 4 of 5</p>
+            <p>Colors notation: Hong Kong Island — blue; Kowloon — yellow to red; New Territories — green. The darker the color, the lower the class of the flat.</p>
+            <p>Classes: A — below 40 sq.m., B — 40-69.9 sq.m., C — 70-99.9 sq.m., D — 100-159.9 sq.m., E — more than 160 sq.m.</p>
+            <p>Mortgage rate is assumed to be: Best lending rate - 1.75% for each year: <a href="https://www.property.hk/eng/mortgage-rate/">property.hk</a> </p>
+            <p>More on LTV: <a href="https://retailbank.hsbc.com.hk/en/mortgage-know-it-all/blog/posts/2022/july/p01/">HSBC HK®</a></p>
+            <p>Scene 4 of 4</p>
         </div>
     </div>
-
-    <div id="scene_5" class="scene">
-        <h1 class="scene_title" id="scene_title_5">Scene 5</h1>
-        <div class="scene_text" id="scene_text_5">
-            <p>Here should be a text for scene 5</p>
-        </div>
-        <div class="scene_graph" id="scene_graph_5">
-            <svg id="scene_svg_5" class="scene_svg">
-            </svg>
-        </div>
-        <div class="scene_footer">
-            <p>Scene 5 of 5</p>
-        </div>
-    </div>
-
 </div>
 <div class="navigation-container">
     <button id="prev" class="button">Back</button>

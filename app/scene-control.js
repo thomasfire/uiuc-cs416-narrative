@@ -1,5 +1,6 @@
 const SCENE_MIN = 1;
-const SCENE_MAX = 5;
+const SCENE_MAX = 4;
+const SCENE_INIT = 1;
 
 class SceneControl {
     constructor() {
@@ -7,7 +8,7 @@ class SceneControl {
             return SceneControl.instance;
         }
 
-        this.currentScene = SCENE_MIN;
+        this.currentScene = SCENE_INIT;
 
         SceneControl.instance = this;
         return this;
