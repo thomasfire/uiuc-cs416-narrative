@@ -335,7 +335,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (sceneGraphElement) {
         const width = sceneGraphElement.offsetWidth * 0.95;
         const height = width * 3 / 4;
-        scene2.init(width, height, 'scene_svg_2', 'data/Prices_avg_annual.csv')
+        const baseUrl = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+        scene2.init(width, height, 'scene_svg_2', `${baseUrl}data/Prices_avg_annual.csv`)
             .loadData();
     } else {
         console.error('Element with id "scene_graph_2" not found');

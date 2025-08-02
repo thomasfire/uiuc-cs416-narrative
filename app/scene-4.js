@@ -366,7 +366,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (sceneGraphElement) {
         const width = sceneGraphElement.offsetWidth * 0.95;
         const height = width * 3 / 4;
-        scene4.init(width, height, 'scene_svg_4', 'data/combined_data.json')
+        const baseUrl = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+        scene4.init(width, height, 'scene_svg_4', `${baseUrl}data/combined_data.json`)
             .loadData();
     } else {
         console.error('Element with id "scene_graph_4" not found');
