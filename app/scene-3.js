@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (sceneGraphElement) {
         const width = sceneGraphElement.offsetWidth * 0.95;
         const height = width * 3 / 4;
-        scene3.init(width, height, 'scene_svg_3', '/data/annual_lending_rate.csv')
+        scene3.init(width, height, 'scene_svg_3', 'data/annual_lending_rate.csv')
             .loadData();
     } else {
         console.error('Element with id "scene_graph_3" not found');
